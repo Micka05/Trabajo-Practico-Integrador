@@ -11,7 +11,7 @@ datos.categoria = 'estudiante';
 const cantidad = document.querySelector('#cantidad');
 categoria = document.querySelector('#categoria');
 const totalAPagar = document.querySelector('#totalAPagar');
-const btnCalcular = document.querySelector('.btnCalcular');
+const btnResumen = document.querySelector('.btnResumen');
 const btnBorrar = document.querySelector('.btnBorrar');
 const formulario = document.querySelector('.formulario');
 	
@@ -28,7 +28,7 @@ categoria.addEventListener('change', function(event){
 });
 	
 
-btnCalcular.addEventListener('click' , function(event){
+btnResumen.addEventListener('click' , function(event){
     event.preventDefault();
     const {cantidad, categoria} = datos;
     var resultado = 0;    
